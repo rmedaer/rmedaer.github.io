@@ -15,8 +15,8 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  {%- if page.picture -%}
-  <img class="post-picture" alt="Illustration of {{ page.title | escape }}" src="{{ site.baseurl }}/assets/img/{{ page.picture }}">
+  {%- if page.image -%}
+  <img class="post-picture" alt="Illustration of {{ page.title | escape }}" src="{{ page.image }}">
   {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">

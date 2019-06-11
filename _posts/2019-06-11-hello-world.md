@@ -2,7 +2,7 @@
 layout:     post
 title:      Let's get cracking!
 date:       2019-06-11 12:00:00 +0200
-picture:    child-writing.jpg
+image:      "/assets/img/child-writing.jpg"
 categories: misc
 ---
 
