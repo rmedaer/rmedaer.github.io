@@ -14,9 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Raphael's brain dump
-subtitle: A place to post my thinking, my ideas and my experiments.
+description: >
+  A place to post my thinking, my ideas and my experiments.
 email: raphael+blog@medaer.me
-description: > # this means to ignore newlines until "baseurl:"
+about: > # this means to ignore newlines until "baseurl:"
   It's been a while since I wanted to share some of my ideas or experiments.
   This blog is (finally) the realization of this project.
 baseurl: "" # the subpath of your site, e.g. /blog
