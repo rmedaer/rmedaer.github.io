@@ -19,10 +19,8 @@ layout: landing
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-        {%- else -%}
-          {{ post.content | strip_html | truncatewords:75}}<br>
+          <a class="read-more" href="{{ post.url }}">Read more...</a><br><br>
         {%- endif -%}
-        <a class="read-more" href="{{ post.url }}">Read more...</a><br><br>
       </li>
       {%- endfor -%}
     </ul>
