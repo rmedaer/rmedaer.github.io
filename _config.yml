@@ -20,8 +20,8 @@ description: > # this means to ignore newlines until "baseurl:"
   It's been a while since I wanted to share some of my ideas or experiments.
   This blog is (finally) the realization of this project.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://raphael.medaer.me" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: schijfke
 github_username:  rmedaer
 
 # Build settings
