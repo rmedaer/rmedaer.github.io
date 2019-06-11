@@ -15,6 +15,10 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  {%- if page.picture -%}
+  <img class="post-picture" alt="Illustration of {{ page.title | escape }}" src="{{ site.baseurl }}/assets/img/{{ page.picture }}">
+  {%- endif -%}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -30,5 +34,4 @@ layout: default
     <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> or
     <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
   </div>
-  <div class="post-share-clear"></div>
 </article>

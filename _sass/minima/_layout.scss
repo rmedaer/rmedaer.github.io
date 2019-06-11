@@ -282,10 +282,10 @@
  * Posts
  */
 .post {
-	padding: $spacing-unit / 2;
-	background: #ffffff;
-	box-shadow: rgba(184, 194, 215, 0.25) 0px 4px 6px, rgba(184, 194, 215, 0.1) 0px 5px 7px;
-	margin: 0 (-$spacing-unit) / 2;
+  padding: ($spacing-unit / 2 + $spacing-unit / 4) 0 $spacing-unit / 2 0;
+  background: #ffffff;
+  box-shadow: rgba(184, 194, 215, 0.25) 0px 4px 6px, rgba(184, 194, 215, 0.1) 0px 5px 7px;
+  margin: 0 (-$spacing-unit) / 2;
 
   @media screen and (max-width: 800px) {
     box-shadow: none;
@@ -293,7 +293,7 @@
 }
 
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin: 0 $spacing-unit / 2 $spacing-unit / 2 $spacing-unit / 2;
 }
 
 .post-title {
@@ -302,14 +302,10 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin: 0 $spacing-unit / 2 $spacing-unit / 2 $spacing-unit / 2;
 
   h2 {
     @include relative-font-size(2);
@@ -336,14 +332,22 @@
   }
 }
 
+.post-picture {
+  object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+  object-position: center; /* Center the image within the element */
+  max-height: 280px;
+  width: 100%;
+  margin: 0 0 ($spacing-unit / 2 + $spacing-unit / 4) 0;
+}
+
 .read-more {
   float: right;
 }
 
 .post-share {
   color: rgba($text-color, 0.54);
-  float: right
-
+  text-align: right;
+  margin: 0 $spacing-unit / 2 $spacing-unit / 2 $spacing-unit / 2;
 }
 .post-share-clear {
   clear: both;
