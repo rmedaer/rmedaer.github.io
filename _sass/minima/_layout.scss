@@ -4,11 +4,16 @@
 
 .site-banner {
   background-color: #ffffff;
-  min-height: 280px;
+  min-height: 180px;
   position: relative;
   display: flex;
   align-items: center;
   margin-bottom: $spacing-unit / 2;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.23);
+  @media screen and (max-width: 800px) {
+    background-color: #434C5E;
+    min-height: 260px;
+  }
 
   > .wrapper {
     width: 100%;
@@ -28,6 +33,9 @@
   &,
   &:visited {
     color: rgb(76, 86, 106);
+	  @media screen and (max-width: 800px) {
+		  color: #ffffff;
+	  }
   }
 }
 .site-banner-subtitle {
@@ -40,6 +48,9 @@
   &,
   &:visited {
     color: rgba(76, 86, 106, 0.72);
+	  @media screen and (max-width: 800px) {
+		  color: rgba(216, 222, 233, 0.72);
+	  }
   }
 }
 
