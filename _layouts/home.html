@@ -19,7 +19,8 @@ layout: landing
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          <a class="read-more" href="{{ post.url }}">Read more...</a><br><br>
+          <a class="read-more" href="{{ post.url }}">Read more...</a>
+          <div style="clear: both;"></div>
         {%- endif -%}
       </li>
       {%- endfor -%}
