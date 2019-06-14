@@ -37,6 +37,14 @@
 		  color: #ffffff;
 	  }
   }
+
+  > a,
+  > a:visited {
+    color: rgb(76, 86, 106);
+	  @media screen and (max-width: 800px) {
+		  color: #ffffff;
+	  }
+  }
 }
 .site-banner-subtitle {
   @include relative-font-size(1.625);
