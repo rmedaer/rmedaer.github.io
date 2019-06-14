@@ -1,10 +1,8 @@
 <header class="site-banner" role="banner">
 
   <div class="wrapper">
-    <img class="site-banner-picture" src="/assets/img/schijfke-at-work.sm.png" alt="A picture of me at work">
+    <img class="site-banner-picture" src="/assets/img/schijfke-at-work.sm.png" srcset="/assets/img/schijfke-at-work.md.png 248w, /assets/img/schijfke-at-work.lg.png 372w" alt="A picture of me at work">
     <div>
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
       <h1 class="site-banner-title"><a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
       <h2 class="site-banner-subtitle"><p>{{ site.subtitle | escape }}</p></h2>
     </div>
