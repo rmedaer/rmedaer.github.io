@@ -1,0 +1,17 @@
+digraph "G" {
+  forcelabels=true;
+  graph [fontname="helvetica", nodesep="0.8", ranksep="0.6", bgcolor=transparent];
+  node [shape=box, fontname="helvetica" fontsize="12"];
+  edge [fontname="helvetica", fontsize="10"];
+
+  start [shape=circle, label="", xlabel="start"];
+  start -> awaiting_payment [label=" create "];
+
+  awaiting_payment -> awaiting_shippment [label=" pay "];
+  awaiting_payment -> canceled [label=" cancel "];
+
+  awaiting_shippment -> awaiting_refund [label=" cancel "];
+  awaiting_shippment -> shipped [label=" ship "];
+
+  awaiting_refund -> canceled [label=" refund "];
+}
