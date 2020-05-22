@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Scope bitmap in JWT (and OAuth)
+title:      JWT scope claim compression using a bitmap
 date:       2020-05-21 21:22:12 +0200
 categories: oauth
 ---
