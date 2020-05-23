@@ -5,7 +5,7 @@ date:       2020-05-21 21:22:12 +0200
 categories: oauth
 ---
 
-JWT are often used in stateless authentication flows. Thanks to the signature, the server does not need anything else to verify the token validity.
+[JSON Web Tokens (JWT)](https://tools.ietf.org/html/rfc7519) are often used in stateless authentication flows. Thanks to the signature, the server does not need anything else to verify the token validity.
 The `scope` claim ([RFC8693 section 4.2](https://tools.ietf.org/html/rfc8693#section-4.2)) contains _a space-separated list of scopes associated with the token_. The server can use it to check the application permissions.
 Although this claim can quickly become heavy. The more scopes you have, the bigger your token is!
 But JWT are meant to be a [_compact token format_](https://tools.ietf.org/html/rfc7519#section-1)...
