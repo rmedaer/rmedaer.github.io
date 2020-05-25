@@ -48,5 +48,5 @@
   <path d="M104 706l792 1015-868-630q-18-13-25-34.5t0-42.5l101-308zm462 0h660l-330 1015zm-198-612l198 612h-462l198-612q8-23 33-23t33 23zm1320 612l101 308q7 21 0 42.5t-25 34.5l-868 630 792-1015zm0 0h-462l198-612q8-23 33-23t33 23z"/>
 </symbol>
 
-<symbol id="hackernews" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M 1 1 L 1 14 L 14 14 L 14 1 Z M 2 2 L 13 2 L 13 13 L 2 13 Z M 4.644531 4 L 7 8.125 L 7 11 L 8 11 L 8 8.140625 L 10.367188 4 L 9.21875 4 L 7.507813 6.992188 L 5.796875 4 Z"/></symbol>
+<symbol id="hackernews" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="0 -2 16 16"><path d="M 1 1 L 1 14 L 14 14 L 14 1 Z M 2 2 L 13 2 L 13 13 L 2 13 Z M 4.644531 4 L 7 8.125 L 7 11 L 8 11 L 8 8.140625 L 10.367188 4 L 9.21875 4 L 7.507813 6.992188 L 5.796875 4 Z"/></symbol>
 </svg>
