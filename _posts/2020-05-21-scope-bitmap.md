@@ -95,3 +95,5 @@ However I don't see a big benefit to use it in OAuth (token and authorize) endpo
 ### Follow up
 
 You might have questions or you just want to discuss about it. Please open issue in my blog repository or feel free to send me an email.
+
+Here is the feedback from HN: https://news.ycombinator.com/item?id=23270052
