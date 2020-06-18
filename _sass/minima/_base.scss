@@ -300,3 +300,7 @@ table {
   z-index: 0;
   position: relative;
 }
+
+.home .footnotes, .home sup {
+  display: none;
+}
