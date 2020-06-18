@@ -257,6 +257,26 @@ table {
   }
 }
 
+.footnotes {
+  padding-top: 16px;
+  font-size: 12px;
+
+  &:before {
+    content: '';
+    border-top: 1px solid $grey-color;
+    max-width: 178px;
+    display: block;
+  }
+
+  > ol {
+    margin-left: 16px;
+    margin-top: 10px;
+    * {
+        margin-bottom: 2px;
+    }
+  }
+}
+
 .draft-watermark-container {
   position: absolute;
   padding-top: 200px;
