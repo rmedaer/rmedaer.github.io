@@ -36,6 +36,7 @@ plugins:
   - jekyll-sitemap
 
 show_excerpts: true
+excerpt_separator: <!--more-->
 
 permalink: /:year/:month/:day/:title:output_ext
 

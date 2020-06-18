@@ -7,6 +7,7 @@ categories: rxvt
 ---
 
 Two years ago I switched from terminator to URXVT. This is now my day to day terminal emulator. URXVT is the unicode version of RXVT started long time ago by Rob Nation. Today I'll show you how I fixed one of the very missing useful feature: **open a new terminal in current working directory**. By _"current working directory"_ I mean _"the working directory of the shell in the most recent focused terminal"_.
+<!--more-->
 
 This is actually a frequently asked question. However I didn't find answer which convinced me. Here are some threads talking about:
 

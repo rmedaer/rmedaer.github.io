@@ -11,6 +11,7 @@ Although this claim can quickly become heavy. The more scopes you have, the bigg
 But JWT are meant to be a [_compact token format_](https://tools.ietf.org/html/rfc7519#section-1)...
 
 Today I'm proud to present you an idea to compress scope list into a bitmap where one bit represents one scope.
+<!--more-->
 
 ### From space-separated list to bitmap
 

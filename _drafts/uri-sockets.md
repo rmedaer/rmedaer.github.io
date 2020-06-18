@@ -8,7 +8,10 @@ categories: uri
 Everybody knows Uniform Resource Identifier (URI)[^1]. As its name suggests, it's a way to identify a resource (for instance a file or a phone number).
 It is often confused with Uniform Resource Locator (URL), which is actually a form of URI. A URL is _a compact string representation for a resource available via the Internet_[^2].
 
-Today I want to share with you the way I define another type of resources: network sockets. Everybody knows what a network socket is, right ?
+Today I want to share with you the way I define another type of resources: network sockets.
+<!--more-->
+Everybody knows what a network socket is, right ?
+
 The socket families I often use are `inet`, `inet6` and `unix`. But there are much more types of endpoints: `ipx`, `bluetooth`,...
 
 To configure the sockets my services or APIs have to bind, I'm now using URIs! For instance:

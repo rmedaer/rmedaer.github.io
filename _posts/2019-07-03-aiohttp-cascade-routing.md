@@ -6,7 +6,9 @@ image:      "/assets/img/cascade.png"
 categories: aiohttp 
 ---
 
-A common routing use-case is to share a route URL pattern for multiple purposes. For instance GitHub is using `github.com/<something>` for both users and organizations. Indeed the user and organization pages are different. A way to implement this is using a fallback mechanism called by some of us _cascade routing_. Meaning: fallback to next request handler if current one is not suitable. You'll find this kind of behavior in popular front/backend framework [such as Angular](https://github.com/angular/angular/pull/16416). Actually it's not yet available in Angular... 😒 and as far as I know not implemented in [AIOHTTP](https://aiohttp.readthedocs.io/). 😭
+A common routing use-case is to share a route URL pattern for multiple purposes. For instance GitHub is using `github.com/<something>` for both users and organizations. Indeed the user and organization pages are different. A way to implement this is using a fallback mechanism called by some of us _cascade routing_.
+<!--more-->
+Meaning: fallback to next request handler if current one is not suitable. You'll find this kind of behavior in popular front/backend framework [such as Angular](https://github.com/angular/angular/pull/16416). Actually it's not yet available in Angular... 😒 and as far as I know not implemented in [AIOHTTP](https://aiohttp.readthedocs.io/). 😭
 
 _AN: I don't compare AIOHTTP and Angular... obviously ! I just challenge the popularity of this feature._
 

@@ -7,6 +7,7 @@ categories: misc
 
 I work on many different Git repositories. For each of them I have a particular email address and sometimes
 a GPG key. Even the Git flow might be different; always `--no-ff` (or not), `pull --rebase` instead of merge,...
+<!--more-->
 
 To deal with it I recently learned about [_Conditional includes_](https://git-scm.com/docs/git-config#_conditional_includes).
 It's basically a way to include additional Git config files with a given condition. You have to configure it as a

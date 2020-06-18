@@ -8,6 +8,7 @@ categories: misc
 
 It's been a while I'm thinking to start a blog. It raised a lot of questions and I was not sure how/why/when to start.
 In the following lines I answer some of these questions and I explain how I'll (try to) maintain this blog.
+<!--more-->
 
 
 _What do I want to write ?_
