@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Configure your sockets with URIs
-date:       2020-06-18 10:46:23 +0200
+date:       2020-08-20 10:42:18 +0200
 categories: uri
 ---
 
