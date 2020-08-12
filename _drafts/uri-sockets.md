@@ -22,6 +22,8 @@ inet://127.0.0.1:80?reuseaddr=true
 
 In this example I basically create a socket IPv4 on address `127.0.0.1` and port `80` with `SO_REUSEADDR` option enabled. 
 
+__PRO:__ It might be specified in any configuration file because it's basically just a string. You don't need any complex structure to define socket type or options.
+
 ### Syntax
 
 The URI _scheme_ defines which socket family I have to use:
