@@ -387,25 +387,25 @@ code.highlighter-rouge {
   white-space: nowrap;
 }
 
-ol {
-  counter-reset: item;
-  margin-left: 32px;
-}
-ol > li {
-  counter-increment: item;
-  padding-left: 8px;
-}
-ol > li::marker {
-  content: counters(item, '.') '.';
-}
-
-.footnotes ol, .citation ol {
-  counter-reset: none;
-}
-.footnotes ol > li::marker,
-.citation ol > li::marker {
-  content: unset;
-}
+//ol {
+//  counter-reset: item;
+//  margin-left: 32px;
+//}
+//ol > li {
+//  counter-increment: item;
+//  padding-left: 8px;
+//}
+//ol > li::marker {
+//  content: counters(item, '.') '.';
+//}
+//
+//.footnotes ol, .citation ol {
+//  counter-reset: none;
+//}
+//.footnotes ol > li::marker,
+//.citation ol > li::marker {
+//  content: unset;
+//}
 
 .footnotes code {
     font-size: 11px;
