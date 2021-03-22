@@ -30,6 +30,10 @@ body {
   @media screen and (max-width: 800px) {
 	  background-color: #ffffff;
   }
+
+  @media print {
+	  background-color: transparent;
+  }
 }
 
 
@@ -132,7 +136,7 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+blockquote:not(.citation) {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;

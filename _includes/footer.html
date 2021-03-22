@@ -18,15 +18,15 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
-            <li>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
+            <li class="hide-on-print">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2 socials">
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-3 hide-on-print">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
