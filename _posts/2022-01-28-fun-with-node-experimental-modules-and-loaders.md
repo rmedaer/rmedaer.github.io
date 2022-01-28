@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Fun with Node experimental modules and loaders
-date:       2021-01-28 15:00:00 +0200
+date:       2022-01-28 15:00:00 +0200
 categories: js
 ---
 
