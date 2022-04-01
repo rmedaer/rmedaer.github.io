@@ -6,4 +6,4 @@ image:      "/resources/brunch.png"
 categories: music
 ---
 
-I am proud to present a new music project named "Brunch". This is brand new single which will be released on May 1st featuring two chill and smooth piano tracks with inspirations from Erik Satie to Michel Petrucciani. [More to come soon...](https://distrokid.com/hyperfollow/raphaelmedaer/brunch)
+I am proud to present a new music project named "Brunch". This is a brand new single which will be released on May 1st featuring two chill and smooth piano tracks with inspirations from Erik Satie to Michel Petrucciani. [More to come soon...](https://distrokid.com/hyperfollow/raphaelmedaer/brunch)
