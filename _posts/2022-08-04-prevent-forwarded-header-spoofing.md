@@ -1,7 +1,14 @@
-# Prevent Forwarded header spoofing with HTTP message signature
+---
+layout:     post
+title:      Prevent Forwarded header spoofing with HTTP message signature
+date:       2022-08-04 13:00:00 +0200
+categories: http
+---
 
 The `Forwarded` HTTP header has been introduced in [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html) from June 2014. It _"defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address(...)"_.
 However there is not any mechanism to protect subsequent component against spoofing. Indeed, if your subsequent component, let's say an API, is exposed on Internet, anyone can forge a HTTP `Forwarded` header and even if your API is always behind your proxy, it has to remove/replace the original `Forwarded` header (if set). It becomes even more complex if you have multiple proxies.
+
+<!--more-->
 
 What could you do to mitigate this security issue ? You could[^1]:
 
