@@ -6,7 +6,7 @@ categories: http
 ---
 
 The `Forwarded` HTTP header has been introduced in [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html) from June 2014. It _"defines an HTTP extension header field that allows proxy components to disclose information lost in the proxying process, for example, the originating IP address(...)"_.
-However there is not any mechanism to protect subsequent component against spoofing. Indeed, if your subsequent component, let's say an API, is exposed on Internet, anyone can forge a HTTP `Forwarded` header and even if your API is always behind your proxy, it has to remove/replace the original `Forwarded` header (if set). It becomes even more complex if you have multiple proxies.
+However there is not any mechanism to protect subsequent component against spoofing. Indeed, if your subsequent component, let's say an API, is exposed on Internet, anyone can forge a HTTP `Forwarded` header. If your API is always behind your proxy, it has to remove/replace the original `Forwarded` header. It becomes even more complex if you have multiple proxies.
 
 <!--more-->
 
